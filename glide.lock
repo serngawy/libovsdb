@@ -1,0 +1,12 @@
+hash: 6ec12b08ba172dd3acb4e49e345451f0c5c35722cf007b68ebbc53dd76bb1cae
+updated: 2018-08-30T14:38:04.776294957+02:00
+imports:
+- name: github.com/cenkalti/hub
+  version: 11382a9960d39b0ecda16fd01c424c11ff765a34
+- name: github.com/cenkalti/rpc2
+  version: c51a77e5f664b4a8a69bce4270d14204f94d51f9
+  subpackages:
+  - jsonrpc
+- name: github.com/socketplane/libovsdb
+  version: 4de3618546deba09d8875d719752db32bd4652c0
+testImports: []
