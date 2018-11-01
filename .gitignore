@@ -1,6 +1,7 @@
 ### https://raw.github.com/github/gitignore/master/Go.gitignore
 
 vendor/
+*bin/
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
@@ -24,7 +25,6 @@ _cgo_export.*
 
 _testmain.go
 
-*.exe
 *.test
 *.prof
 

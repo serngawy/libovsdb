@@ -1,0 +1,23 @@
+hash: 07869063d77c42a66c5bc7b44762471557e66667b966644e82f2c38ccc264000
+updated: 2018-08-31T13:13:23.937179992+02:00
+imports:
+- name: github.com/cenkalti/hub
+  version: 11382a9960d39b0ecda16fd01c424c11ff765a34
+- name: github.com/cenkalti/rpc2
+  version: c51a77e5f664b4a8a69bce4270d14204f94d51f9
+  subpackages:
+  - jsonrpc
+- name: github.com/serngawy/libovsdb
+  version: 11cd0c2b0d51eaaa7b77d7269105ca175aa884df
+- name: github.com/Sirupsen/logrus
+  version: 778f2e774c725116edbc3d039dc0dfc1cc62aae8
+- name: golang.org/x/crypto
+  version: b2aa35443fbc700ab74c586ae79b81c171851023
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 95c6576299259db960f6c5b9b69ea52422860fce
+  subpackages:
+  - unix
+  - windows
+testImports: []
