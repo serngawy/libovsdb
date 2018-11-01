@@ -11,26 +11,18 @@ OVSDB is the Open vSwitch Database Protocol.
 It's defined in [RFC 7047](http://tools.ietf.org/html/rfc7047)
 It's used mainly for managing the configuration of Open vSwitch, but it could also be used to manage your stamp collection. Philatelists Rejoice!
 
-## Running the tests
+## Build the lib
 
-To run integration tests, you'll need access to docker to run an Open vSwitch container.
-Mac users can use [boot2docker](http://boot2docker.io)
+We assume you already installed golang and glide. If not check the below links for more info
+- install golang
+ https://golang.org/doc/install
+- install glide
+ https://github.com/Masterminds/glide
+ 
+Run the libovsdb/build.sh script to build the libovsdb. The libovsdb binary will be under the libovsdb/bin direcroty 
+Run the libovsdb/ovsDriver/build.sh script to build the libovsdb. The ovsDriver binary will be under the libovsdb/bin direcroty 
 
-    export DOCKER_IP=$(boot2docker ip)
+## ovsDriver
 
-    docker-compose run test /bin/sh
-    # make test-local
-    ...
-    # exit
-    docker-compose down
+ovsDriver is a good example on how to use the libovsdb. ovsDriver has been used by other projects such opendaylight COE.
 
-By invoking the command **make**, you will automatically get the same behaviour as what
-is shown above. In other words, it will start the two containers and execute
-**make test-local** from the test container.
-
-## Dependency Management
-
-We use [godep](https://github.com/tools/godep) for dependency management with rewritten import paths.
-This allows the repo to be `go get`able.
-
-To bump the version of a dependency, follow these [instructions](https://github.com/tools/godep#update-a-dependency)
