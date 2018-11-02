@@ -1,8 +1,6 @@
 libovsdb
 ========
 
-[![Circle CI](https://circleci.com/gh/socketplane/libovsdb.png?style=badge&circle-token=17838d6362be941ed8478bf9d10de5307d4b917d)](https://circleci.com/gh/socketplane/libovsdb) [![Coverage Status](https://coveralls.io/repos/socketplane/libovsdb/badge.png?branch=master)](https://coveralls.io/r/socketplane/libovsdb?branch=master)
-
 An OVSDB Library written in Go
 
 ## What is OVSDB?
@@ -19,8 +17,8 @@ We assume you already installed golang and glide. If not check the below links f
 - install glide
  https://github.com/Masterminds/glide
  
-Run the libovsdb/build.sh script to build the libovsdb. The libovsdb binary will be under the libovsdb/bin direcroty 
-Run the libovsdb/ovsDriver/build.sh script to build the libovsdb. The ovsDriver binary will be under the libovsdb/bin direcroty 
+Run the libovsdb/build.sh script to build the libovsdb. The libovsdb binary will be under the $GOPATH/bin direcroty 
+Run the libovsdb/ovsDriver/build.sh script to build the libovsdb. The ovsDriver binary will be under the $GOPATH/bin direcroty 
 
 ## ovsDriver
 
