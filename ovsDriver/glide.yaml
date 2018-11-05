@@ -1,4 +1,0 @@
-package: .
-import:
-- package: github.com/Sirupsen/logrus
-- package: github.com/serngawy/libovsdb

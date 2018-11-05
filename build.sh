@@ -1,13 +1,7 @@
 #!/usr/bin/env bash
 
-Update=$1
-
-echo "GOPATH=" $GOPATH
-
-if [ ! -d "vendor" ] || [ "$Update" = "update" ]; then
-
-    glide update -v
-
-fi
+echo "GOPATH= " $GOPATH
+dep ensure
+mkdir -p $GOPATH/bin
 GOOS=linux go build -o $GOPATH/bin/libovsdb
 

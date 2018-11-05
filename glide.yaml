@@ -1,6 +1,0 @@
-package: github.com/serngawy/libovsdb
-import:
-- package: github.com/cenkalti/rpc2
-  subpackages:
-  - jsonrpc
-- package: github.com/socketplane/libovsdb

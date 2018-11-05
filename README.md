@@ -11,11 +11,11 @@ It's used mainly for managing the configuration of Open vSwitch, but it could al
 
 ## Build the lib
 
-We assume you already installed golang and glide. If not check the below links for more info
+We assume you already installed golang and dep. If not check the below links for more info
 - install golang
  https://golang.org/doc/install
-- install glide
- https://github.com/Masterminds/glide
+- install dep
+ https://github.com/golang/dep/blob/master/docs/installation.md
  
 Run the libovsdb/build.sh script to build the libovsdb. The libovsdb binary will be under the $GOPATH/bin direcroty 
 Run the libovsdb/ovsDriver/build.sh script to build the libovsdb. The ovsDriver binary will be under the $GOPATH/bin direcroty 
