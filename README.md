@@ -22,5 +22,4 @@ Run the libovsdb/ovsDriver/build.sh script to build the libovsdb. The ovsDriver 
 
 ## ovsDriver
 
-ovsDriver is a good example on how to use the libovsdb. ovsDriver has been used by other projects such opendaylight COE.
-
+ovsDriver is a good example on how to use the libovsdb.
